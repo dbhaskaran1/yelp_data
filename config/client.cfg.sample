@@ -1,0 +1,8 @@
+[yelp]
+client_id = 
+client_secret = 
+
+[fb]
+access_token=
+fb_api_version=
+
