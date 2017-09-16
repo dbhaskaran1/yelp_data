@@ -1,0 +1,12 @@
+{
+u'paging': 
+  {
+    u'cursors': 
+      {u'after': u'MjQZD'}, 
+      u'next': u'https://graph.facebook.com/v2.10/search?access_token=EAAWCZASZBS7zUBAPO9LzSfHUFHVAD9Ws3Y0BnLqdGmhAoUmHWZC4EJi8QivtXAawnKkoh4edQ9EmuYT0wbrNZCatZBeK4MLU8esW7RP424OciLNRvnifIQk7ZAtYZC514JxpdpTz1BPYPGj59B0iTK90g2kGQGFnNdaOKY0H9qhNAZDZD&q=Indian+Grocery&type=place&limit=25&after=MjQZD'}, 
+      u'data': [
+          {u'name': u'Indian Grocery', u'id': u'166703513446341'}, 
+          {u'name': u'Indian Grocery', u'id': u'264807303556076'}, 
+          {u'name': u'Indian Grocery', u'id': u'536705223086239'}, 
+          {u'name': u'Indian Mound Grocery', u'id': u'800813099944323'}, 
+          {u'name': u'IndianGrocery', u'id': u'1667954136773936'}, {u'name': u"Bhanu's Indian Grocery & Cuisine", u'id': u'159838804045215'}, {u'name': u'Indian Grocery', u'id': u'721963414481602'}, {u'name': u'Indian Grocery', u'id': u'141458112561171'}, {u'name': u'Indian Grocery Outlet', u'id': u'609682145725844'}, {u'name': u'Indian Grocery', u'id': u'133354586741134'}, {u'name': u'Indian Grocery', u'id': u'162345984124419'}, {u'name': u'Indian Grocery In', u'id': u'1708747132678302'}, {u'name': u'Indian Grocery', u'id': u'120933791289794'}, {u'name': u'Indian Grocery', u'id': u'270409203368059'}, {u'name': u'Indian Grocery', u'id': u'103722383026517'}, {u'name': u'Indian Grocery', u'id': u'269149800265515'}, {u'name': u'INDIAN GROCERY STORE', u'id': u'1447643475511168'}, {u'name': u'Indian Grocery', u'id': u'151755034839250'}, {u'name': u'Indian Treasure Grocery', u'id': u'242782219148812'}, {u'name': u'Indian Grocery', u'id': u'301713299980616'}, {u'name': u"Joshi's Indian Grocery", u'id': u'1427832680820267'}, {u'name': u'Indian Grocery', u'id': u'230793367396871'}, {u'name': u'Indian Grocery Store', u'id': u'1637289603187831'}, {u'name': u'Indian grocery', u'id': u'215754775476951'}, {u'name': u'Gurukrupa Indian Grocery & Copy Service', u'id': u'102118323756845'}]}
