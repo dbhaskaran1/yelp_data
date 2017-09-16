@@ -1,7 +1,11 @@
 from googleplaces import GooglePlaces, types, lang
 import csv
+import ConfigParser
 
-API_KEY = 'AIzaSyDJDB14qwvHFc3_3LSEUobrsZ6WUCnjNmQ'
+config.read('config/client.cfg')
+
+API_KEY=config.get('google','API_KEY')
+
 super_market = types.TYPE_GROCERY_OR_SUPERMARKET
 dept_store = types.TYPE_GROCERY_OR_SUPERMARKET
 
