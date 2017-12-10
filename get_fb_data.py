@@ -1,5 +1,4 @@
 import facebook
-import requests
 import ConfigParser
 
 
@@ -22,7 +21,7 @@ class FacebookData(object):
             q=string_to_search_for,
             center='0,0',
             distance=5000,
-            fields='name, emails, location, about')
+            fields='name, emails, location, about, phone')
 
         return pages
 
@@ -30,7 +29,7 @@ class FacebookData(object):
         for place in data:
             try:
                 if place['emails'] and place['location']['country'] == 'United States':
-                    print '{}, {}, {}'.format( ','.join(place['emails']), place['name'], place['location']['city'])
+                    print '{}, {}, {}, {}'.format( ','.join(place['emails']), place['name'], place['location']['city'], place['phone'])
             except:
                 pass
 
@@ -47,14 +46,14 @@ class FacebookData(object):
 
 if __name__ == '__main__':
     fb1 = FacebookData()
-    search_term = 'Indian Groceries'
-    states_list1 = [ 'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida',
+    search_term = 'Chiropractor'
+    states_list = [ 'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida',
 					'Georgia', 'Hawaii', 'Idaho', 'Illinois Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine',
 					'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana Nebraska', 'Nevada',
 					'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma',
 					'Oregon', 'Pennsylvania Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
 					'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming' ]
-    states_list = ['Texas', 'California']
+    states_list1 = ['']
     for state in states_list:
         pages = fb1.search_for_pages(search_term + state)
-        fb1.print_page_data(pages, 20)
+        fb1.print_page_data(pages, 50)
